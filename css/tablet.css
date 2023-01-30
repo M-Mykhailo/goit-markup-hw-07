@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+
+  /*-------- heading --------*/
+
+  .heading {
+    background: var(--background-blue);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../image/background-image/people-office-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .heading-title {
+    margin-bottom: 40px;
+    max-width: 496px;
+
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  /*-------- advice --------*/
+
+  .advice-list {
+    gap: 72px 24px;
+  }
+  .advice-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .advice-subtitle {
+    text-align: left;
+  }
+
+  /*-------- team --------*/
+
+  .team.section {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    gap: 72px 24px;
+  }
+
+  .team-item {
+    width: 264px;
+  }
+
+  /*-------- customers --------*/
+
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+  }
+}
+
+/*-------- team --------*/

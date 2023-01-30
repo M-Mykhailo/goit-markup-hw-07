@@ -1,0 +1,100 @@
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    width: 1158px;
+  }
+
+  /*-------- heading --------*/
+
+  .heading {
+    background: var(--background-blue);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../image/background-image/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .heading.section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .heading-title {
+    margin-bottom: 48px;
+  }
+
+  /*-------- advice --------*/
+
+  .advice.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .advice-list-icon {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;
+  }
+
+  .advice-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    border-radius: 4px;
+  }
+
+  .advice-subtitle {
+    font-weight: var(--font-weight-subtitle);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .advice-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+
+  .advice-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  /*-------- product --------*/
+
+  .product {
+    display: block;
+  }
+
+  /*-------- team --------*/
+
+  .team.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  /*-------- customers --------*/
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+}
