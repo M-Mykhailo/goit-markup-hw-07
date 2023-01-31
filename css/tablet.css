@@ -8,7 +8,7 @@
   .menu-open {
     display: none;
   }
-  
+
   .mob-menu {
     display: none;
   }
@@ -101,16 +101,23 @@
   /*-------- heading --------*/
 
   .heading {
-    background: var(--background-blue);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../image/background-image/people-office-tablet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .heading {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../image/background-image/people-office-tablet-2x.jpg);
+    }
   }
 
   .heading-title {

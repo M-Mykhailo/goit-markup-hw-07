@@ -33,17 +33,25 @@
   /*-------- heading --------*/
 
   .heading {
-    background: var(--background-blue);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../image/background-image/people-office.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
   }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .heading {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../image/background-image/people-office-2x.jpg);
+    }
+  }
+
 
   .heading.section {
     padding-top: 188px;
@@ -147,6 +155,11 @@
   }
 
   /*-------- customers --------*/
+
+  .customers.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
   .customers > .conteiner {
     width: 1158px;
