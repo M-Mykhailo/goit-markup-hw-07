@@ -3,5 +3,14 @@
     width: 428px;
   }
 
- 
+  /*----------  header ----------*/
+
+  .heade-mob-tel {
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .mob-social-list {
+    gap: 56px;
+  }
 }

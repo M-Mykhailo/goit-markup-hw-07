@@ -22,7 +22,7 @@
   </head>
 
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="conteiner">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo">
@@ -52,8 +52,86 @@
             </a>
           </li>
         </ul>
+        <button class="menu-open" type="button" data-menu-open>
+          <svg class="menu-open-icon" width="32px" height="22px">
+            <use href="./image/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-conteiner">
+          <div class="mob-menu-top">
+            <button type="button" class="btn-mob-close" data-menu-close>
+              <svg class="modal-icon" width="8px" height="8px">
+                <use href="./image/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav class="header-mob-navigation">
+              <ul class="header-mob-list list">
+                <li class="header-mob-item">
+                  <a href="./index.html" class="header-mob-link link">Studio</a>
+                </li>
+                <li class="header-mob-item">
+                  <a href="./portfolio.html" class="header-mob-link link">
+                    Portfolio
+                  </a>
+                </li>
+                <li class="header-mob-item">
+                  <a href="" class="header-mob-link link current">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="mob-menu-bottom">
+            <ul class="header-mob-contacts list">
+              <li class="header-mob-contact">
+                <a href="tel:+11(000)1111111" class="heade-mob-tel link">
+                  +11 (000) 111-11-11
+                </a>
+              </li>
+              <li class="header-mob-contact">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="header-mob-mail link"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="mob-social-list list">
+              <li class="mob-social-item">
+                <a href="" class="mob-social-link">
+                  <svg class="mob-social-icon" width="16px" height="16px">
+                    <use href="./image/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-item">
+                <a href="" class="mob-social-link">
+                  <svg class="mob-social-icon" width="16px" height="16px">
+                    <use href="./image/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-item">
+                <a href="" class="mob-social-link">
+                  <svg class="mob-social-icon" width="16px" height="16px">
+                    <use href="./image/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-social-item">
+                <a href="" class="mob-social-link">
+                  <svg class="mob-social-icon" width="16px" height="16px">
+                    <use href="./image/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
       <section class="heading section">
         <div class="conteiner">
@@ -504,7 +582,11 @@
           </div>
           <div class="label-wrap privacy">
             <label class="check-label">
-              <input class="check-input visually-hidden" type="checkbox" name="privacy" />
+              <input
+                class="check-input visually-hidden"
+                type="checkbox"
+                name="privacy"
+              />
               <span class="check-icon-wrap">
                 <svg class="check-icon" width="10px" height="8px">
                   <use href="./image/icons.svg#icon-checked"></use>
@@ -521,5 +603,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mob-meny.js"></script>
   </body>
 </html>
