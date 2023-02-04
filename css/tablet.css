@@ -211,4 +211,22 @@
     margin-bottom: 0;
     width: 264px;
   }
+
+  /*-------- portfolio --------*/
+
+  .portfolio-list-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .portfolio-item {
+    width: calc((100% - 24px) / 2);
+  }
 }

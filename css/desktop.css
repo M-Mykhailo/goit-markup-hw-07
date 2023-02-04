@@ -5,9 +5,6 @@
 
   /*-------- header --------*/
 
-  .header-link {
-  }
-
   .header-logo {
     margin-right: 76px;
   }
@@ -40,7 +37,7 @@
       url(../image/background-image/people-office.jpg);
   }
 
-    @media (min-device-pixel-ratio: 2),
+  @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .heading {
@@ -51,7 +48,6 @@
         url(../image/background-image/people-office-2x.jpg);
     }
   }
-
 
   .heading.section {
     padding-top: 188px;
@@ -199,5 +195,19 @@
 
   .footer-form {
     display: flex;
+  }
+
+  /*-------- portfolio --------*/
+
+  .portfolio-list-btn {
+    margin-bottom: 72px;
+  }
+
+  .portfolio-list {
+    gap: 48px 24px;
+  }
+
+  .portfolio-item {
+    width: calc((100% - 48px) / 3);
   }
 }
