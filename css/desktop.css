@@ -199,6 +199,11 @@
 
   /*-------- portfolio --------*/
 
+  .portfolio.section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
   .portfolio-list-btn {
     margin-bottom: 72px;
   }
